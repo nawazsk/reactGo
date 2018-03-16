@@ -20,7 +20,7 @@
   "author": "Choon Ken Ding",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^7.2.1",
+    "babel-eslint": "^8.2.2",
     "babel-register": "^6.24.0",
     "enzyme": "^2.8.0",
     "eslint": "^3.19.0",
@@ -43,9 +43,9 @@
   "dependencies": {
     "autoprefixer": "^8.1.0",
     "axios": "^0.18.0",
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-plugin-transform-react-constant-elements": "^6.23.0",
     "babel-plugin-transform-react-inline-elements": "^6.22.0",
