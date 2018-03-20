@@ -6,7 +6,7 @@ export default () => {
   // Find the appropriate database to connect to, default to localhost if not found.
   const connect = () => {
     mongoose.Promise = require('bluebird');
-    mongoose.connect(db,{useMongoClient: true}, (err) => {
+    mongoose.connect(db, (err) => {
       if (err) {
         console.log(`===>  Error connecting to ${db}`);
         console.log(`Reason: ${err}`);
